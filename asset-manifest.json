@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fpcap/static/css/main.a53e8cd9.css",
+    "main.js": "/fpcap/static/js/main.57705df1.js",
+    "index.html": "/fpcap/index.html",
+    "main.a53e8cd9.css.map": "/fpcap/static/css/main.a53e8cd9.css.map",
+    "main.57705df1.js.map": "/fpcap/static/js/main.57705df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a53e8cd9.css",
+    "static/js/main.57705df1.js"
+  ]
+}
