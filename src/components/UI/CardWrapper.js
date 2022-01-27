@@ -18,7 +18,7 @@ const CardWrapper = ({ cards, transaction }) =>  {
         <ul className={classes['card-wrapper']}>
             {cards.map((project) => (
                 <li key={project.id} className={classes.card}>
-                    <img src={project.image} alt='cover' />
+                    <img src={project.image} alt={`${project.eng_name}'s document image`} />
                     <h3>{project.eng_name}</h3>
                     <p>Stock Code: {project.stockCode}</p>
                     <p>Date of {transaction}: {strToDay(project.date.toString())}</p>

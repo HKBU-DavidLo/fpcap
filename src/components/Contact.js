@@ -35,7 +35,7 @@ const Contact = () => {
                         <tr>
                             <td>Email</td>
                             <td>:</td>
-                            <td>admin@fpcap.com.hk</td>
+                            <td><a href="mailto:admin@fpcap.com.hk">admin@fpcap.com.hk</a></td>
                         </tr>
                     </table>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9963566974366!2d114.1720759154152!3d22.27812784932816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005b851103c9%3A0xcefd48c1f5948d0a!2z6aaZ5riv54Gj5LuU6aex5YWL6YGTMTg46Jmf5YWG5a6J5Lit5b-D!5e0!3m2!1szh-TW!2suk!4v1642362253451!5m2!1szh-TW!2suk" width="600" height="450" style={{border:0, marginBottom: 32 }} allowfullscreen="" loading="lazy"></iframe>
