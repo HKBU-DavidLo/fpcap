@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fpcap/static/css/main.a53e8cd9.css",
-    "main.js": "/fpcap/static/js/main.8babbf71.js",
+    "main.js": "/fpcap/static/js/main.1887b25e.js",
     "index.html": "/fpcap/index.html",
     "main.a53e8cd9.css.map": "/fpcap/static/css/main.a53e8cd9.css.map",
-    "main.8babbf71.js.map": "/fpcap/static/js/main.8babbf71.js.map"
+    "main.1887b25e.js.map": "/fpcap/static/js/main.1887b25e.js.map"
   },
   "entrypoints": [
     "static/css/main.a53e8cd9.css",
-    "static/js/main.8babbf71.js"
+    "static/js/main.1887b25e.js"
   ]
 }
