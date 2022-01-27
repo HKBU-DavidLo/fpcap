@@ -8,6 +8,8 @@
     padding-bottom: 1rem;
     background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh));
     overflow: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
   }
   .card img {
     border-radius: 0.5rem 0.5rem 0 0;
@@ -22,6 +24,9 @@
   }
   .card > :last-child {
     margin-bottom: 0;
+  }
+  .card:hover {
+    transform: scale(1.03);
   }
   .card:hover, .card:focus-within {
     --card-gradient: #24a9d5 max(8.5rem, 20vh);
