@@ -11,12 +11,12 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/about" element={<About />} exact />
-        <Route path="/services" element={<Services />} exact />
-        <Route path="/clients" element={<Clients />} exact />
-        <Route path="/contact-us" element={<Contact />} exact />
-        <Route path='*' element={<NotFound />} />
+        <Route path="/fpcap" element={<Home />} exact />
+        <Route path="/fpcap/about" element={<About />} exact />
+        <Route path="/fpcap/services" element={<Services />} exact />
+        <Route path="/fpcap/clients" element={<Clients />} exact />
+        <Route path="/fpcap/contact-us" element={<Contact />} exact />
+        <Route path='/fpcap/*' element={<NotFound />} />
       </Routes>
     </Layout>
   )

@@ -6,7 +6,7 @@ const Home = () => {
         <Fragment>
             <section className={classes['home__section']}>
                 <div className={classes['home__image-container']}>
-                    <img src="/images/fp_office.webp" alt="office" />
+                    <img src="/fpcap/images/fp_office.webp" alt="office" />
                 </div>
             
                 <p><strong>Frontpage Capital Limited</strong> is a boutique investment bank established in 2015 to provide corporate finance services and solutions to companies listed or intending to be listed on the Hong Kong Stock Exchange. </p>
