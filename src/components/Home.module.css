@@ -1,0 +1,22 @@
+.home__section {
+    width: 65rem;
+    margin: 3rem auto;
+    display: block;
+
+}
+
+.home__section p {
+    text-align: justify;
+}
+
+.home__image-container {
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.home__image-container img {
+    display: block;
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+}

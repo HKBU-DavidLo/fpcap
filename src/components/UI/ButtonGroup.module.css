@@ -1,0 +1,26 @@
+.button {
+    background-image: linear-gradient(to right, #4ea4eb 0%, #2c5576 50%, #4ea4eb 100%);
+    margin-bottom: 2.1rem;
+    width: 14rem;
+    height: 3.75rem;
+    background-color: #4ea4eb;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    box-shadow: 0 0 1rem #eee;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.active {
+    background-image: linear-gradient(to right, #4ea4eb 0%, #5a1170 50%, #4ea4eb 100%);
+}
+
+.button:hover, .button-active:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
