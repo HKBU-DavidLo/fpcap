@@ -1,7 +1,9 @@
+import classes from './NotFound.module.css'
+
 const NotFound = () => {
     return (
-        <div className="centered">
-            <p>Page not found!</p>
+        <div className={classes.centered}>
+            <h2>Sorry, the page for this URL is not found!</h2>
         </div>
     )
 }

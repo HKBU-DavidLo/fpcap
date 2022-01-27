@@ -5,6 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Clients from './components/Clients'
 import Contact from './components/Contact'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/services" element={<Services />} exact />
         <Route path="/clients" element={<Clients />} exact />
         <Route path="/contact-us" element={<Contact />} exact />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </Layout>
   )
